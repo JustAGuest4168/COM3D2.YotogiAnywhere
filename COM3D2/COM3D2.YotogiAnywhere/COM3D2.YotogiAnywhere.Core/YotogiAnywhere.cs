@@ -10,7 +10,8 @@ using Yotogis;
 
 namespace COM3D2.YotogiAnywhere.Plugin.Core
 {
-    [BepInPlugin("org.guest4168.plugins.yotogianywhereplugin", "Yotogi Location Caching Plug-In", "1.0.0.0")]
+    [BepInPlugin("org.guest4168.plugins.yotogianywhereplugin", "Yotogi Location Caching Plug-In", "1.0.1.0")]
+    [BepInDependency("org.bepinex.plugins.unityinjectorloader", BepInDependency.DependencyFlags.SoftDependency)]
     public class YotogiAnywhere : BaseUnityPlugin
     {
         private UnityEngine.GameObject managerObject;
